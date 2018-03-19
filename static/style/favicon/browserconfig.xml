@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square70x70logo src="{{ url_for('static', filename='assets/icon.png') }}"/>
+      <square150x150logo src="{{ url_for('static', filename='assets/icon.png') }}"/>
+      <square310x310logo src="{{ url_for('static', filename='assets/icon.png') }}"/>
+      <wide310x150logo src="{{ url_for('static', filename='assets/icon.png') }}"/>
+      <TileColor>#da532c</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>

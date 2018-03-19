@@ -1,83 +1,812 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta http-equiv="refresh" content="1;URL=https://adityaalifn.herokuapp.com/">
-    <meta charset="UTF-8">
-    <title>PLEASE NOTE NEW ADDRESS</title>
-    <meta name="description" content="Our site has moved to a new address. Please note the change of address." >
- 
-    <!-- Mobile Specific Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
- 
-    <link href='http://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
- 
-    <style>
- 
-        body{
-            font-family: 'Noto Sans', Arial, serif;
-            font-weight: 400;
-            -webkit-font-smoothing:antialiased;
-            -moz-osx-font-smoothing:grayscale;
-            line-height: 1.618em;
-            background: #464646 url('lake.jpg') center center no-repeat fixed;
-            background-size: cover;
-        }
-        h2{
-            font-family: 'Noto Sans', Arial, serif;
-            font-weight: 700;
-            font-size:40px;
-            line-height: 1.618em;
-        }
-        section{
-            max-width:800px;
-            margin:8% auto 1em auto;
-            background-color:#222;
-            opacity: 0.8;
-            filter: alpha(opacity=80); /* For IE8 and earlier */
-            color:#fff;
-            padding:1em 5%;
-        }
- 
-        a{
-            color: #00CC66;
-        }
-        a:focus{
-            outline:none;
-            outline-offset:inherit;
-        }
-        @media (max-device-width: 1027px) {
- 
-            body{
-                text-align:center;
-                font-size:larger;
-            }
-            section{
-                max-width: 90%;
-            }
- 
-        }
- 
-        @media (max-device-width: 640px) {
-            section{
-                max-width: 97%;
-            }
- 
-        }
- 
- 
-    </style>
+	<!-- Basic informations -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Site informations -->
+	<title>Aditya Alif Nugraha</title>
+	<meta name="author" content="Aditya Alif Nugraha">
+	<meta name="description" content="Aditya Alif Nugraha Personal Page">
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Aditya Alif Nugraha">
+	<meta property="og:description" content="Personal Page created by Aditya Alif Nugraha">
+	<meta property="og:url" content="https://github.com/adityaalifn">
+	<meta property="og:image" content="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAinAAAAJDZkYmZlNzI0LWVjNjMtNGM5MS1iMWI0LTA4YTU1NmM4ODExYQ.jpg">
+
+	<!-- My CSS -->
+	<link rel="stylesheet" href="./static/styles.css">
+
+	<!-- Twitter Card -->
+	<!--
+	<meta name="twitter:title" content="">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:domain" content="">
+	<meta name="twitter:image:src" content="">
+	<meta name="twitter:site" content="">
+	<meta name="twitter:creator" content="">
+	<meta name="twitter:card" content="">
+	-->
+
+	<!-- Favicon -->
+	<link rel="apple-touch-icon" sizes="180x180" href="./static/assets/icon.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="./static/assets/icon.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="./static/assets/icon.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="./static/assets/icon.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="./static/assets/icon.png">
+	<link rel="apple-touch-icon" sizes="57x57" href="./static/assets/icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="./static/assets/icon.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="./static/assets/icon.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="./static/assets/icon.png">
+	<link rel="icon" type="image/png" href="./static/assets/icon.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="./static/assets/icon.png" sizes="160x160">
+	<link rel="icon" type="image/png" href="./static/assets/icon.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="./static/assets/icon.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="./static/assets/icon.png" sizes="32x32">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="./static/assets/icon.png">
+	<meta name="msapplication-config" content="./static/style/favicon/browserconfig.xml">
+	<link rel="shortcut icon" href="./static/favicon.ico">
+
+	<!-- Fonts -->
+	<link href="./static/style/fonts/webfont-raleway/webfont-raleway.css" rel="stylesheet" type="text/css">
+	<link href="./static/style/fonts/webfont-font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">
+
+	<!-- Stylesheets -->
+	<link href="./static/style/css/global.css" type="text/css" rel="stylesheet" media="all">
+
+	<!-- Scripts preload -->
+	<!--[if lt IE 9]><script src="style/js/html5shiv.js"></script><![endif]-->
 </head>
+
 <body>
- 
-<section>
-    <h2>Sorry, we redirect you</h2>
- 
-    <h3>The full responsive web address for this page is <a href="https://adityaalifn.herokuapp.com/">https://adityaalifn.herokuapp.com/</a></h3>
-    <h3>...You will be transferred to the site in a moment...</h3>
- 
-    <p>If you have waited more than a few seconds and you are still seeing this message, please click on the link above! Thank you.</p>
-</section>
- 
+
+
+
+
+
+
+	<!-- Some Helper Stuff -->
+	<div id="start" class="start">&nbsp;</div>
+	<div class="maxwidth1050">&nbsp;</div>
+
+
+
+
+
+
+
+	<!-- Header -->
+	<header class="header">
+		<div class="header__wrapper">
+			<div class="header__hamburger">
+				<div class="header__hamburger-block">&nbsp;</div>
+				<div class="header__hamburger-block">&nbsp;</div>
+				<div class="header__hamburger-block">&nbsp;</div>
+			</div>
+			<nav class="header__navigation">
+				<a href="#start" class="js-smooth-scroll">
+					<div class="js-smooth-scroll  header__navigation-element">Start...</div>
+				</a>
+				<a href="#experience" class="js-smooth-scroll">
+					<div class="header__navigation-element  header__navigation-element--experience">Skills...</div>
+				</a>
+				<a href="#features" class="js-smooth-scroll">
+					<div class="header__navigation-element  header__navigation-element--features">Personalities...</div>
+				</a>
+				<a href="#realizations" class="js-smooth-scroll">
+					<div class="header__navigation-element  header__navigation-element--realizations">Portfolio...</div>
+				</a>
+				<a href="#contact" class="js-smooth-scroll">
+					<div class="header__navigation-element  header__navigation-element--contact">Contact...</div>
+				</a>
+			</nav>
+
+			<a href="#start" class="header__title-wrapper  js-smooth-scroll">
+				<div class="header__title-main">Aditya Alif Nugraha</div>
+				<div class="header__title-sub">Personal Page</div>
+			</a>
+
+			<div class="header__social-icons">
+				<a target="_blank" href="https://facebook.com/adityaalifn">
+					<i class="fa fa-facebook"></i>
+				</a>
+				<a target="_blank" href="https://github.com/adityaalifn/">
+					<i class="fa fa-github"></i>
+				</a>
+				<a target="_blank" href="https://linkedin.com/in/adityaalifn">
+					<i class="fa fa-linkedin"></i>
+				</a>
+			</div>
+		</div>
+	</header>
+	<!-- End Header -->
+
+
+
+
+
+
+
+
+	<!-- First Fixed "Hero" Section -->
+	<section id="hero" class="hero">
+		<div class="hero__background">&nbsp;</div>
+		<div class="hero__gradient">&nbsp;</div>
+		<div class="hero__pattern">&nbsp;</div>
+		<div class="hero__content">
+			<div class="hero__content-wrapper">
+				<div class="hero__title-wrapper">
+					<div class="hero__title-large">Welcome!</div>
+					<h2>This is the Aditya Alif Nugraha's personal website. Support his journey to the space of Computer Science. The adventure
+						is far from over... What will this astronaut do next, who knows??</h2>
+				</div>
+				<div class="hero__call-to-action">
+					<a href="http://bit.ly/adityaalifn-resume" target="_blank" class="hero__button  ghost-button  ghost-button--hero">Hire Me!
+						<i class="fa fa-download"></i>
+					</a>
+					<a href="https://www.facebook.com/adityaalifn" target="_blank" class="hero__alt-button">...or find out more about me.</a>
+				</div>
+				<div class="hero__photo-wrapper">
+					<div class="hero__photo">
+						<div class="hero__hat">&nbsp;</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End First Fixed "Hero" Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Scrollable Content -->
+	<div class="content">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- "Experience" Section -->
+		<section id="experience" class="experience">
+			<div class="experience__hollow-arrow">&nbsp;</div>
+			<div class="experience__wrapper">
+				<div class="section-header">
+					<div class="section-header__title  section-header__title--experience">My Skills...</div>
+					<div class="section-header__subtitle">Software and technologies that I'm experienced in</div>
+				</div>
+				<div class="experience__icons-wrapper">
+					<div class="experience__icon  experience__icon--html5">
+						<div class="experience__icon-description">HTML5</div>
+					</div>
+					<div class="experience__icon  experience__icon--css3">
+						<div class="experience__icon-description">CSS3</div>
+					</div>
+					<div class="experience__icon  experience__icon--javascript">
+						<div class="experience__icon-description">JavaScript</div>
+					</div>
+					<div class="experience__icon">
+						<img width="200px" height="200px" src="./static/style/img/exp/golang.png">
+						<div class="experience__icon-description">Golang</div>
+					</div>
+
+					<div class="experience__icon">
+						<img width="200px" height="200px" src="./static/style/img/exp/java.png">
+						<div class="experience__icon-description">Java</div>
+					</div>
+					<div class="experience__icon  experience__icon--git">
+						<div class="experience__icon-description">GIT</div>
+					</div>
+					<div class="experience__icon">
+						<img width="200px" height="200px" src="./static/style/img/exp/python.png">
+						<div class="experience__icon-description">Python</div>
+					</div>
+					<div class="experience__icon">
+						<img width="200px" height="200px" src="./static/style/img/exp/cpp.png">
+						<div class="experience__icon-description">C++</div>
+					</div>
+					<!-- <div class="experience__icon  experience__icon--illustrator">
+						<div class="experience__icon-description">Adobe Illustrator</div>
+					</div> -->
+					<!-- <div class="experience__icon  experience__icon--fireworks">
+						<div class="experience__icon-description">Adobe Fireworks</div>
+					</div> -->
+					<div class="experience__icon  experience__icon--bootstrap">
+						<div class="experience__icon-description">Bootstrap 3</div>
+					</div>
+					<!-- <div class="experience__icon  experience__icon--foundation">
+						<div class="experience__icon-description">Foundation 5</div>
+					</div> -->
+				</div>
+			</div>
+		</section>
+		<!-- End "Experience" Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- "Features" Section -->
+		<section id="features" class="features">
+			<div class="features__wrapper">
+				<div class="section-header">
+					<div class="section-header__title  section-header__title--features">His Personalities</div>
+					<div class="section-header__subtitle">He has some personalities to support his work</div>
+				</div>
+				<div class="features__elements-wrapper">
+					<div class="features__element">
+						<div class="features__image  features__image--newest">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">Problem Solver</div>
+							<div class="features__description">Can solve the problem given with the best solution at the specified time.</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image features__image--intuitive">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">Critical but Creative Thinking</div>
+							<div class="features__description">Find the best solution from the present condition. But propose another solutions by adding condition(s) if it is better
+								for the future.</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--fast">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">Fast and Performant</div>
+							<div class="features__description">Works quickly and can be proven by the results of his work.</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--seo">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">Can Predict Possible Problems</div>
+							<div class="features__description">Think more than once for each solution to be executed. And consider the issues that will arise.</div>
+						</div>
+					</div>
+					<!-- <div class="features__element">
+						<div class="features__image  features__image--secure">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">Secure</div>
+							<div class="features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ducimus, nemo corrupti voluptas ea! Placeat quidem
+								magnam, natus.</div>
+						</div>
+					</div> -->
+					<div class="features__element">
+						<div class="features__image  features__image--semantic">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">Prioritize Problems</div>
+							<div class="features__description">Finding the problem, breaking the problem into smaller issues, then making the priority.</div>
+						</div>
+					</div>
+					<div class="features__element">
+						<div class="features__image  features__image--sourcefiles">&nbsp;</div>
+						<div class="features__text">
+							<div class="features__title">He Always Said, "I can do it"</div>
+							<div class="features__description">Always try to complete a given task even if it has not been experienced.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End "Features" Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- "Realizations" Section - With Projects -->
+		<section id="realizations" class="realizations">
+			<div class="realizations__wrapper">
+
+				<div class="section-header">
+					<div class="section-header__title  section-header__title--realizations">Portfolio...</div>
+					<div class="section-header__subtitle">Selected projects that he do the best</div>
+				</div>
+
+				<div class="showcase">
+					<div class="showcase__thumbnails-wrapper">
+
+						<!-- normal -->
+						<img data-project="p1" class="showcase__thumb  showcase__thumb--first  showcase__thumb--active" src="http://www.pcquest.com/wp-content/uploads/2017/10/machine_learning.jpg"
+						/>
+						<img data-project="p2" class="showcase__thumb" src="./static/content/pcd-placeholder.png">
+						<img data-project="p3" class="showcase__thumb" src="./static/content/deeplearn-placeholder.png">
+						<img data-project="p4" class="showcase__thumb" src="./static/content/project_placeholder_thumb.jpg">
+						<img data-project="p5" class="showcase__thumb" src="./static/content/project_placeholder_thumb.jpg">
+
+						<!-- blank template
+						<div data-project="p5" class="showcase__thumb  showcase__thumb--blank">&nbsp;</div>
+						 -->
+
+					</div>
+
+
+
+					<div class="showcase__stage-wrapper">
+
+						<!-- project 1 -->
+						<div data-project="p1" class="showcase__stage  showcase__stage--active">
+							<div class="showcase__slider">
+								<ul class="rslides">
+
+									<li>
+										<a href="./static/content/ml-project1-slide03.png" target="_blank">
+											<img src="./static/content/ml-project1-slide03.png">
+										</a>
+									</li>
+
+									<li>
+										<a href="./static/content/ml-project1-slide01.png" target="_blank">
+											<img src="./static/content/ml-project1-slide01.png">
+										</a>
+									</li>
+
+									<li>
+										<a href="./static/content/ml-project1-slide02.png" target="_blank">
+											<img src="./static/content/ml-project1-slide02.png">
+										</a>
+									</li>
+
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">
+									Machine Learning
+									<div class="showcase__title-description">Course Project</div>
+								</div>
+
+								<div class="showcase__point">
+									<div class="showcase__point-title">Tasks</div>
+									<div class="showcase__point-description">
+										Analyzing, designing, implementing machine learning model.
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Technologies Used</div>
+									<div class="showcase__point-description">
+										Python, Numpy, Matplotlib, Pandas, Scikit-Learn, Spyder IDE
+									</div>
+								</div>
+
+
+								<div class="showcase__point">
+									<div class="showcase__point-title">Details</div>
+									<div class="showcase__point-details-excerpt">
+										Analyzing, designing, implementing machine learning model. That model are Regression, Support Vector Machine (SVM), Naive
+										Bayes, Artificial Neural Network (ANN), Hierarchical Clustering, Self-organizing map (SOM), K-Means, Reinforcement
+										Learning, and Random Forest.
+										<!--<span class="showcase__ellipsis"></span>-->
+										<!-- <span class="showcase__readmore">more</span> -->
+									</div>
+
+									<!-- <div class="showcase__point-details-full">
+										Perfect for gathering and sharing informations on some subject, browser start page, personal notes, link bookmarking, simple
+										project management, todo list, and many more. Possibilites are endless.
+										<span class="showcase__readless">less</span>
+									</div> -->
+								</div>
+
+
+								<a target="_blank" href="https://github.com/adityaalifn/CSH3L3-Machine-Learning" class="showcase__button  ghost-button  ghost-button--realizations">Visit Project</a>
+							</div>
+						</div>
+
+						<!-- project 2 -->
+						<div data-project="p2" class="showcase__stage">
+							<div class="showcase__slider">
+								<ul class="rslides">
+
+									<li>
+										<a href="./static/content/pcd-project2-slide01.png" target="_blank">
+											<img src="./static/content/pcd-project2-slide01.png">
+										</a>
+									</li>
+
+									<!-- <li>
+										<a href="./static/content/project_placeholder_slide.jpg" target="_blank">
+											<img src="./static/content/project_placeholder_slide.jpg">
+										</a>
+									</li>
+
+									<li>
+										<a href="./static/content/project_placeholder_slide.jpg" target="_blank">
+											<img src="./static/content/project_placeholder_slide.jpg">
+										</a>
+									</li>
+
+									<li>
+										<a href="./static/content/project_placeholder_slide.jpg" target="_blank">
+											<img src="./static/content/project_placeholder_slide.jpg">
+										</a>
+									</li> -->
+
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">Digital Image Processing
+									<div class="showcase__title-description">Course Project</div>
+								</div>
+
+								<!-- <div class="showcase__point">
+									<div class="showcase__point-title">Section Title</div>
+									<div class="showcase__point-description">
+										Section Content
+									</div>
+								</div> -->
+								<div class="showcase__point">
+									<div class="showcase__point-title">Technologies Used</div>
+									<div class="showcase__point-description">
+										Python, HTML, CSS, Numpy, Flask
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Details</div>
+									<div class="showcase__point-details-excerpt">
+										Processing image that uploaded from user. This project including image cropping, rotating, sharpening, convolutioning, etc.
+										(This project is on process)
+										<!-- <span class="showcase__ellipsis">...</span> -->
+										<!-- <span class="showcase__readmore">more</span> -->
+									</div>
+									<!-- <div class="showcase__point-details-full">
+										ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+										Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<span class="showcase__readless">less</span>
+									</div> -->
+								</div>
+								<a target="_blank" href="https://pcd-adityaalifn-1301154183.herokuapp.com/" class="showcase__button  ghost-button  ghost-button--realizations">Visit Website</a>
+							</div>
+						</div>
+
+						<!-- project 3 -->
+						<div data-project="p3" class="showcase__stage">
+							<div class="showcase__slider">
+								<ul class="rslides">
+									<li>
+										<img src="./static/content/ml-project1-slide03.png">
+									</li>
+									<li>
+										<img src="./static/content/ml-project1-slide03.png">
+									</li>
+									<li>
+										<img src="./static/content/ml-project1-slide03.png">
+									</li>
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">Deep Learning
+									<div class="showcase__title-description">Learning Project</div>
+								</div>
+								<!-- <div class="showcase__point">
+									<div class="showcase__point-title">Learning Project</div>
+									<div class="showcase__point-description">
+										Learning result for Deep Learning
+									</div>
+								</div> -->
+								<div class="showcase__point">
+									<div class="showcase__point-title">Section Title</div>
+									<div class="showcase__point-description">
+										Python, Numpy, Matplotlib, Pandas, Scikit-Learn, Spyder IDE, Tensorflow, Keras
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Details</div>
+									<div class="showcase__point-details-excerpt">
+										Learning Deep Learning from online course such as Udemy, YouTube, Stanford, etc. I love deep learning and everybody must
+										feel the deep learning in action!!
+										<!-- <span class="showcase__ellipsis">...</span> -->
+										<!-- <span class="showcase__readmore">more</span> -->
+									</div>
+									<!-- <div class="showcase__point-details-full">
+										ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+										Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<span class="showcase__readless">less</span>
+									</div> -->
+								</div>
+								<a target="_blank" href="https://github.com/adityaalifn/Learning-Deep-Learning" class="showcase__button  ghost-button  ghost-button--realizations">Visit Project</a>
+							</div>
+						</div>
+
+						<!-- project 4 -->
+						<div data-project="p4" class="showcase__stage">
+							<div class="showcase__slider">
+								<ul class="rslides">
+									<li>
+										<img src="./static/content/project_placeholder_slide.jpg">
+									</li>
+									<li>
+										<img src="./static/content/project_placeholder_slide.jpg">
+									</li>
+									<li>
+										<img src="./static/content/project_placeholder_slide.jpg">
+									</li>
+									<li>
+										<img src="./static/content/project_placeholder_slide.jpg">
+									</li>
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">Fourth Project</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Section Title</div>
+									<div class="showcase__point-description">
+										Design and Front-End Development
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Section Title</div>
+									<div class="showcase__point-description">
+										HTML, CSS, SASS, JavaScript, jQuery
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Section Title</div>
+									<div class="showcase__point-details-excerpt">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+										<span class="showcase__ellipsis">...</span>
+										<span class="showcase__readmore">more</span>
+									</div>
+									<div class="showcase__point-details-full">
+										ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+										Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<span class="showcase__readless">less</span>
+									</div>
+								</div>
+								<a target="_blank" href="//example.com" class="showcase__button  ghost-button  ghost-button--realizations">Visit Website</a>
+							</div>
+						</div>
+
+						<!-- project 5 -->
+						<div data-project="p5" class="showcase__stage">
+							<div class="showcase__slider">
+								<ul class="rslides">
+									<li>
+										<img src="./static/content/project_placeholder_slide.jpg">
+									</li>
+									<li>
+										<img src="./static/content/project_placeholder_slide.jpg">
+									</li>
+									<li>
+										<img src="./static/content/project_placeholder_slide.jpg">
+									</li>
+									<li>
+										<img src="./static/content/project_placeholder_slide.jpg">
+									</li>
+								</ul>
+							</div>
+							<div class="showcase__infos-wrapper">
+								<div class="showcase__title">Fifth Project</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Section Title</div>
+									<div class="showcase__point-description">
+										Design and Front-End Development
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Section Title</div>
+									<div class="showcase__point-description">
+										HTML, CSS, SASS, JavaScript, jQuery
+									</div>
+								</div>
+								<div class="showcase__point">
+									<div class="showcase__point-title">Section Title</div>
+									<div class="showcase__point-details-excerpt">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+										<span class="showcase__ellipsis">...</span>
+										<span class="showcase__readmore">more</span>
+									</div>
+									<div class="showcase__point-details-full">
+										ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+										Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+										<span class="showcase__readless">less</span>
+									</div>
+								</div>
+								<a target="_blank" href="//example.com" class="showcase__button  ghost-button  ghost-button--realizations">Visit Website</a>
+							</div>
+						</div>
+
+
+					</div>
+
+
+
+				</div>
+			</div>
+		</section>
+		<!-- End "Realizations" Section - With Projects -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- "Contact" Section -->
+		<section id="contact" class="contact">
+			<div class="contact__wrapper">
+				<div class="section-header">
+					<div class="section-header__title  section-header__title--contact">Contact...</div>
+					<div class="section-header__subtitle">Contact me through provided email or social media</div>
+				</div>
+
+				<div class="contact__icons-wrapper">
+					<div class="contact__icon">
+						<a target="_blank" href="mailto:adityaalifnugraha@gmail.com">
+							<i class="fa fa-envelope"></i>
+						</a>
+						<div class="contact__icon-description">adityaalifnugraha@gmail.com</div>
+					</div>
+					<div class="contact__icon">
+						<a target="_blank" href="https://facebook.com/adityaalifn">
+							<i class="fa fa-facebook"></i>
+						</a>
+						<div class="contact__icon-description">@adityaalifn</div>
+					</div>
+					<div class="contact__icon">
+						<a target="_blank" href="https://linkedin.com/in/adityaalifn">
+							<i class="fa fa-linkedin"></i>
+						</a>
+						<div class="contact__icon-description">Aditya Alif Nugraha</div>
+					</div>
+				</div>
+
+				<!-- <div class="contact__spacer">&nbsp;</div>
+
+				<form class="contact__form">
+
+					<div class="contact__textarea-wrapper">
+						<label for="message_content" class="contact__label">Message</label>
+						<div class="contact__response-ajax-text">&nbsp;</div>
+						<textarea id="message_content" rows="10" placeholder="Hello! Would you be interested in collaboration for the greatest project ever?"
+						    required></textarea>
+					</div>
+
+					<div class="contact__bottom-wrapper">
+						<div class="contact__sender-info-wrapper">
+							<div class="contact__input-wrapper  contact__input-wrapper--name">
+								<label for="sender_name" class="contact__label">Your Name</label>
+								<div class="contact__response-ajax-text">&nbsp;</div>
+								<input id="sender_name" type="text" placeholder="John Doe" required>
+							</div>
+							<div class="contact__input-wrapper  contact__input-wrapper--email">
+								<label for="sender_email" class="contact__label">Your E-mail</label>
+								<div class="contact__response-ajax-text">&nbsp;</div>
+								<input id="sender_email" type="email" placeholder="john@example.com" required>
+							</div>
+						</div>
+
+						<div class="contact__button-wrapper  ghost-button  ghost-button--contact">
+							<div class="contact__paper-plane-wrapper">
+								<i class="fa fa-paper-plane"></i>
+							</div>
+							<div class="contact__response  contact__response--success">
+								<div class="contact__response-title">
+									<i class="fa fa-check"></i> Message was sent.</div>
+								<div class="contact__response-description  contact__response-description--success">&nbsp;</div>
+							</div>
+							<div class="contact__response  contact__response--error">
+								<div class="contact__response-title">
+									<i class="fa fa-warning"></i> Error.</div>
+								<div class="contact__response-description  contact__response-description--error">Message couldn't be sent.</div>
+							</div>
+							<input id="contact__submit" type="button" value=" ">
+						</div>
+					</div>
+				</form> -->
+
+			</div>
+		</section>
+		<!-- End "Contact" Section -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Footer -->
+		<footer id="footer" class="footer">
+			<div class="footer__wrapper">
+				<div class="footer__copyright">Aditya Alif Nugraha &copy; 2018</div>
+				<div>
+					<div id="sfcnujx86y1d6xlmhjf8xflg54j9c6upzhd"></div>
+					<script type="text/javascript" src="https://counter2.freecounter.ovh/private/counter.js?c=nujx86y1d6xlmhjf8xflg54j9c6upzhd&down=async"
+					    async></script>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+
+
+
+
+
+
+
+
+	</div>
+	<!-- End Scrollable Content -->
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Scripts postload -->
+	<script src="./static/style/js/dependencies.min.js" type="text/javascript"></script>
+	<script src="./static/style/js/global.js" type="text/javascript"></script>
+
 </body>
+
 </html>
